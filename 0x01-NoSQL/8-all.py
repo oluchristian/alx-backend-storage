@@ -4,7 +4,7 @@ List all documents in Python
 """
 
 
-def list_all(mongo_collection: Collection):
+def list_all(mongo_collection):
     """Lists all documents in a MongoDB collection.
     """
     return mongo_collection.find()
